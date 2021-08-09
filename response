@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;">
+
+<div style="background-color:#f1f1f1;padding:15px;">
+  <h1>Servitutde Technology</h1>
+  <h3>Response HTML Task</h3>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <div class="menuitem">Portfolio</div>
+    <div class="menuitem">Services</div>
+    <div class="menuitem">Success</div>
+    <div class="menuitem">Contact</div>
+  </div>
+
+  <div class="main">
+    <h2>ABOUT US</h2>
+    <p>We love to craft software and solve the real world problems with the binaries.The credit goes to the Ironman at Servitude Technology HQ, who set new milestones every other day. The biggest strength of all time for us is our wonderful and hardworking team. Each and every member of the team tries really hard to drive out the best of any innovative idea. We believe CoWorking at Servitude Technology is not about the job, it's about lifestyle</p>
+    <img src="logo.png" style="width:100%">
+  </div>
+
+  <div class="right">
+    <h2>1.</h2>
+    <p>We at Servitude expand possibilities of better tomorrow.</p>
+    <h2>2.</h2>
+    <p>We at Servitude provide simplified secure solutions.</p>
+    <h2>3.</h2>
+    <p>We at Servitude make sure we deliver best.</p>
+  </div>
+</div>
+
+
+<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> WE CONNECT REAL WORLD WITH THE DIGITAL WORLD </div>
+
+</body>
+</html>
